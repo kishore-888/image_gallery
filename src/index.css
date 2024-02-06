@@ -1,0 +1,22 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.image-title {
+    margin-top: 5px;
+    font-size: 14px;
+}
